@@ -38,6 +38,8 @@ const AboutSection = () => {
       <StyledImage>
         <motion.img
           variants={photoAnimation}
+          initial="hidden"
+          animate="show"
           src={home1}
           alt="guy with a camera"
         ></motion.img>
