@@ -63,8 +63,8 @@ const StyledHeadline = styled.div`
   h2 {
     position: absolute;
     top: 10%;
-    left: 50%;
-    transform: translate (-50%, -10%);
+    left: 45%;
+    transform: translate (-45%, -10%);
   }
   img {
     width: 100%;
@@ -79,6 +79,10 @@ const StyledAwards = styled.div`
   margin: 5rem 10rem;
   align-items: center;
   justify-content: space-around;
+  @media (max-width: 1300px) {
+    display: block;
+    margin: 2rem 2rem;
+  }
 `;
 
 const StyledAward = styled.div`

@@ -15,10 +15,10 @@ const AboutUs = () => {
       animate="show"
       exit="exit"
     >
-      <ScrollTop />
       <AboutSection />
       <ServicesSection />
       <FaqSection />
+      <ScrollTop />
     </motion.div>
   );
 };
